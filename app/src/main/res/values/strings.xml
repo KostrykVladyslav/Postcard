@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">Postcard</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name:</string>
+    <string name="enter_name_here">enter name here</string>
+    <string name="title">Title:</string>
+    <string name="launch">Launch</string>
+    <string name="test">Test</string>
+    <string name="enter_text_here">enter text here</string>
+    <string name="text">Text:</string>
+    <string name="enter_title_here">enter title here</string>
+    <string name="from">from</string>
+    <string name="todo">TODO</string>
 </resources>
