@@ -7,18 +7,17 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.postcard.ui.MainFragment"
+        android:name="com.example.postcard.ui.menu_fragment.MenuFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        tools:layout="@layout/fragment_menu" >
         <action
             android:id="@+id/action_mainFragment_to_postcardFragment"
-            app:destination="@id/postcardFragment"
-            app:enterAnim="@anim/fragment_open_enter"/>
+            app:destination="@id/postcardFragment"/>
     </fragment>
 
     <fragment
         android:id="@+id/postcardFragment"
-        android:name="com.example.postcard.ui.PostcardFragment"
+        android:name="com.example.postcard.ui.postcard_fragment.PostcardFragment"
         android:label="fragment_postcard"
         tools:layout="@layout/fragment_postcard" />
 

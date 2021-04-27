@@ -1,4 +1,4 @@
-package com.example.postcard.ui
+package com.example.postcard.ui.postcard_fragment
 
 import android.content.Context
 import android.content.SharedPreferences
