@@ -5,11 +5,11 @@
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
-        motion:duration="100">
-        <OnSwipe  motion:touchAnchorId="@id/imageView"
-            motion:touchAnchorSide="bottom"
-            motion:dragDirection="dragUp"/>
-
+        motion:duration="1000">
+        <OnSwipe
+            motion:dragDirection="dragUp"
+            motion:touchAnchorId="@id/imageView"
+            motion:touchAnchorSide="bottom" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
@@ -21,6 +21,15 @@
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toBottomOf="parent"
             motion:layout_editor_absoluteY="843dp" />
+
+        <Constraint
+            android:id="@id/swipeUpText"
+            android:visibility="visible"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="50sp"
+            android:layout_width="wrap_content" />
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
@@ -31,5 +40,14 @@
             motion:layout_constraintBottom_toTopOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent" />
+
+        <Constraint
+            android:id="@id/swipeUpText"
+            android:visibility="invisible"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="50sp"
+            android:layout_width="wrap_content" />
     </ConstraintSet>
 </MotionScene>

@@ -1,4 +1,4 @@
-package com.example.postcard.ui
+package com.example.postcard.ui.menu_fragment.adapters
 
 import android.view.LayoutInflater
 import android.view.View

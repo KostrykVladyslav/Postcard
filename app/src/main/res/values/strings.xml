@@ -11,4 +11,6 @@
     <string name="enter_title_here">enter title here</string>
     <string name="from">from</string>
     <string name="todo">TODO</string>
+    <string name="field_is_empty">Field is empty!</string>
+    <string name="swipe_up">Swipe up!!!!</string>
 </resources>
